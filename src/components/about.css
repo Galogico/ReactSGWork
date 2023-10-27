@@ -1,0 +1,65 @@
+.button1{
+    border: none;
+    border-radius: 10px;
+    background: var(--pp2-purple, linear-gradient(214deg, #B75CFF 6.04%, #671AE4 92.95%));
+    display: flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.button2{
+    border: none;
+    border-radius: 10px;
+    background: var(--white10, rgba(255, 255, 255, 0.10));
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.principalTxt{  
+    width: 490px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 60px */
+}
+
+.desc{
+    color: var(--half-white, rgba(255, 255, 255, 0.50));
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 180%; /* 36px */
+
+}
+.buttonDiv{
+    display: flex;
+    flex-direction: row;
+    width: 298px;
+    height: 50px;
+    justify-content: space-between;
+}
+
+.general{
+    display: flex;
+    justify-content: center;
+}

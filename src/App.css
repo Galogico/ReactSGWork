@@ -1,6 +1,6 @@
 .App{
     background: var(--pp3-background, linear-gradient(113deg, #984D38 -30.3%, #181E41 58.12%));
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
 }

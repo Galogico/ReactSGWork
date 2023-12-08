@@ -44,6 +44,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    cursor: pointer;
 }
 
 .difNavBtn{
@@ -61,6 +62,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    cursor: pointer;
 }
 
 .navDiv{
@@ -71,6 +73,7 @@
     width: 100%;
     height: 70px;
     flex-shrink: 0;
+    margin-bottom: 100px;
 }
 
 .btnDiv{

@@ -3,6 +3,7 @@ import "./App.css"
 import About from './components/about.jsx';
 import Sponsored from './components/sponsored.jsx';
 import Aboutus from "./components/aboutus.jsx"
+import Collection from './components/Collection.jsx';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <About/>
       <Sponsored/>
       <Aboutus/>
+      <Collection/>
     </div>
   );
 }

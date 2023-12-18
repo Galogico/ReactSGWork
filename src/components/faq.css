@@ -1,0 +1,12 @@
+.ask{
+    width: 591px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #888;
+}
+.faqModel{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}

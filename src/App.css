@@ -1,6 +1,73 @@
-.App{
+.App {
     background: var(--pp3-background, linear-gradient(113deg, #984D38 -30.3%, #181E41 58.12%));
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.cardsContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.feat {
+    margin-top: 80px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    
+}
+
+.featDesc {
+    color: var(--half-white, rgba(255, 255, 255, 0.50));
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.rectangle {
+    display: flex;
+    flex-direction: column;
+    width: 1197px;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--pp2-purple, linear-gradient(214deg, #B75CFF 6.04%, #671AE4 92.95%));
+    justify-content: center;
+    align-items: center;
+}
+
+.getButton {
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    background: var(--half-white, rgba(255, 255, 255, 0.50));
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+}
+
+.recont{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
